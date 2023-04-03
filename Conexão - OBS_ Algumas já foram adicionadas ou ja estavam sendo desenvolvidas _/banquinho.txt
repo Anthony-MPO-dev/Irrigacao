@@ -1,0 +1,15 @@
+-----------SISTEMA-----------
+id - int - key
+
+idArd - int - unique
+
+nome - varchar(150)
+
+estado - int
+
+umid - int 
+
+temp - int
+
+idUsu - int - foreingkey
+----------------------------

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.css">
+</head>
+<body>
+	<script type="text/javascript">
+		
+	</script>
+	<div class="text-center w-100">
+		<form method="POST" action="alterar_senha.php" class="d-inline-block m-5 bg-dark destaque-radius-shadow" name="f1">
+									
+			<div class="form-row text-center">
+				
+				<div class="form-group col-sm-12 w-100 pt-5 pb-4 px-5">
+
+					<label for="inputSenha">Digite sua senha anterior: <h11>*</h11></label>
+					<input type="password" name="pwd" id="inputSenha" maxlength="12" minlength="8" required title="Tem que ter no mínimo 8 letras e no máximo 12 tendo no mínimo uma letra minuscula de [a-z]" requireds class="form-control shadow-lg">
+					<br>
+					<label for="inputSenha">Digite a nova senha <h11>*</h11></label>
+					<input type="password" name="pwd1" id="inputSenha" maxlength="12" minlength="8" required onchange="form.pwd2.pattern = this.value;" title="Não pode ser igual a antiga, tendo no mínimo 8 letras e no máximo 12 devendo ter uma letra de [a-z]" required  class="form-control shadow-lg">
+					<br>
+					<label for="inputSenha2">Confirmar nova senha: <h11>*</h11></label>
+					<input type="password" name="pwd2"  id="inputSenha2" maxlength="12" minlength="8" title="As Senhas Devem ser Iguais" required9- class="form-control shadow-lg">
+
+				</div>
+
+			</div>
+
+				
+
+			<div class="form-row px-5 pb-5">
+				
+				<div class="form-group m-auto w-100">
+
+					<input type="submit" value="Enviar" id="" class="w-100 btn btn-success">
+
+				</div>
+
+			</div>
+
+		</form>
+	</div>
+
+	<div class="text-center w-100">
+
+		<!--Parte Troca de Dados usuario Não impleentado !!!!!!!!-->
+		
+		<h1>Alterar Dados Pessoais</h1>	
+
+		<form method="POST" class="d-inline-block col-lg-5 col-md-6 col-sm-10 col-12" name="f1">
+			<div class="form-row text-center">
+				
+				<div class="form-group col-sm-12">
+
+				</div>
+
+			</div>
+
+					<div class="form-row">
+						
+						<div class="form-group col-sm-12">
+
+							<input type="submit" value="Enviar" id="" class="w-100 btn btn-success">
+
+						</div>
+
+					</div>
+
+		</form>	
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+

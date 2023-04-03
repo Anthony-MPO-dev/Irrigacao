@@ -1,0 +1,25 @@
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div>
+			
+    <form action="manipularSis.php" method="POST">	
+                    
+        <div>
+            <label>Digite o número do equipamento (número de série)</label>
+            <input type="int" name="idArd" placeholder="Exemplo: 112233">
+        </div>
+
+        <div>
+            <select name="estado_modulo" id="estado">
+                <option value="" ></option>
+                <option value="0" >Desligar</option>
+                <option value="1" >Ligar</option>
+            </select>
+        </div>
+
+        <br>
+        <div class="g-recaptcha" data-sitekey="6Ldcn7sUAAAAAJgn1Y0hJg3iaCWYKPTcRFVZaImm"></div>
+            <button>Alterar</button>
+    
+    </form>
+
+</div>	
